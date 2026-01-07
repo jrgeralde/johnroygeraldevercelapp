@@ -1,0 +1,40 @@
+// app/certificates/page.tsx
+// app/page.tsx
+import Head from "next/head";
+import BackToTop from "../components/BackToTop"; // adjust the path as needed
+
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse, faBriefcase, faCertificate,faEnvelope,faCogs,faLanguage,faUser,faChalkboardTeacher,faCalendarAlt, faPenNib,faGraduationCap} from "@fortawesome/free-solid-svg-icons";
+import { faYoutube, faLinkedin,faGithub } from "@fortawesome/free-brands-svg-icons";
+
+export default function CertifcatesPage() {
+  return (
+    <>
+      <Head>
+        <title>Home | John Roy Geralde</title>
+      </Head>
+
+      <div className="w-full px-2 py-4">
+        <h1 className="text-xl font-semibold">My Certificates</h1>
+        <hr />
+      </div>
+
+      <div className="flex flex-col md:flex-row min-h-screen gap-4 p-0 m-0.5">
+      
+        {/* Left Column */}
+        <div className="w-full md:w-[50%] border-2 p-4 space-y-6">
+
+        </div>
+
+        {/* Right Column */}
+        <div className="w-full md:w-[50%] border-2 p-4 space-y-6">
+        </div>
+
+      </div>
+         {/* Floating Back to Top Button */}
+         <BackToTop />
+    </>
+  );
+}

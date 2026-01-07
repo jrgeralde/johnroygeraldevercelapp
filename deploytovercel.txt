@@ -1,0 +1,33 @@
+1. To install (in terminal, in your project folder)
+***Note: Vercel Account is already created
+
+npm install -g vercel
+
+or in nextjs:
+
+npx vercel
+
+
+// verify by
+vercel --version
+
+2. Push project to vercel
+// login to vercel
+vercel login
+
+vercel
+
+vercel --prod
+
+
+
+
+3. To update vercel project
+
+in terminal
+
+vercel login
+
+vercel
+
+vercel --prod
