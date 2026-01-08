@@ -78,6 +78,7 @@ export default function HomePage() {
                 { name: "Delphi Desktop and Fullstack Web Development using UNIGUI", value: 90 },
                 { name: "HTML, Javascript, CSS", value: 90 },
                 { name: "Database Management using PostgreSQL, MySQL, MS SQL", value: 95 },
+                { name: "CRM (Go High Level, GHL)", value: 60 },
               ].map((skill, idx) => (
                 <div key={idx} className="mb-2">
                   <p className="text-lg">{skill.name}</p>
@@ -140,6 +141,7 @@ export default function HomePage() {
               An experienced Database Administrator with actual experience in Windows Server Failover Clustering and Replication.
             </p>
             <p className="mt-1.5 mb-1.5">An avid user of Linux and Ubuntu.</p>
+            <p className="mt-1.5 mb-1.5 font-semibold"> Underwent training in CRM Using Go High Level (GHL)</p>
           </div>
 
           <div className="mt-4 mb-4 p-4 bg-white rounded-lg shadow border-2 border-gray-500/20 transform hover:scale-105 transition-transform duration-200">

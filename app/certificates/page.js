@@ -230,6 +230,32 @@ export default function CertificatesPage() {
 
         </div>
 
+        {/* UDEMY GO High Level Training*/}
+          <div className="mt-4 mb-4 p-4 bg-white rounded-lg shadow border-2 border-gray-500/20 transform hover:scale-105 transition-transform duration-200">
+
+            <a 
+                href="https://www.udemy.com/certificate/UC-468818b5-6c81-4953-9e59-57a8fb359296/"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className=" hover:text-blue-600 underline font-medium"
+              >
+                View Actual Certificate on UDEMY Website
+            </a>
+
+            <h5 className="text-2xl font-semibold"><FontAwesomeIcon icon={faCertificate} className="mr-2 text-base text-blue-600"/>
+              UDEMY CRM Go High Level Training (GHL) Certificate
+            </h5>
+            <h6 className="text-sm text-gray-500"><FontAwesomeIcon icon={faCalendarAlt} className="mr-2 text-base text-black"/>January 9, 2026</h6>
+
+            <img
+                src="/assets/images/GoHighLevel.JPG"
+                alt="Avatar"
+                className="mx-auto rounded-lg  border-2 border-black-900"
+              />
+
+          </div>
+         {/* End of Certificate */}
+
       </div>  
          {/* Floating Back to Top Button */}
          <BackToTop />
